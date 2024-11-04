@@ -1,0 +1,113 @@
+/* File: style.css */
+
+/* Định dạng bảng */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Định dạng tiêu đề bảng */
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Định dạng ô đầu tiên (Logo) và các cột */
+th, td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Định dạng tiêu đề cột */
+thead th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Định dạng các hàng chẵn và lẻ khác màu */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Định dạng cột chứa logo */
+td img {
+    width: 50px;
+    height: auto;
+}
+
+/* Định dạng liên kết trong bảng */
+td a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+/* File: style.css */
+
+/* File: style.css */
+
+/* Định dạng bảng */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #1B1B2F; /* Nền chính của bảng */
+    color: white; /* Màu chữ tổng thể */
+}
+
+/* Định dạng tiêu đề bảng */
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2D4059; /* Màu tiêu đề chính */
+}
+
+/* Định dạng ô đầu tiên (Logo) và các cột */
+th, td {
+    border: 1px solid #2D4059; /* Viền màu xanh đậm Canva */
+    padding: 10px;
+    text-align: center;
+    color: white; /* Màu chữ trắng cho tất cả ô */
+}
+
+/* Định dạng tiêu đề cột */
+thead th {
+    background-color: #2D4059; /* Nền xanh đậm Canva */
+    color: white;
+}
+
+/* Định dạng các hàng chẵn và lẻ khác màu */
+tbody tr:nth-child(even) {
+    background-color: #F07B3F; /* Màu nền cho hàng chẵn */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #FFD460; /* Màu nền cho hàng lẻ */
+}
+
+/* Định dạng cột chứa logo */
+td img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%; /* Bo tròn logo */
+}
+
+/* Định dạng liên kết trong bảng */
+td a {
+    color: #EA5455; /* Màu đỏ nổi bật cho liên kết */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+td a:hover {
+    color: #F07B3F; /* Đổi màu cam khi hover */
+    text-decoration: underline;
+}

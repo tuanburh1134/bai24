@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách các trường đại học</title>
+    
+    <!-- Liên kết Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Liên kết CSS tùy chỉnh nếu cần -->
+    <link rel="stylesheet" href="Bài 24.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <!-- Đặt tiêu đề lên trên bảng -->
+        <h2 class="text-center font-weight-bold mb-4">Danh sách các trường đại học</h2>
+        
+        <table class="table table-bordered table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Logo</th>
+                    <th scope="col">Tên trường Đại học</th>
+                    <th scope="col" colspan="2">Khoa chuyên ngành</th>
+                    <th scope="col">Website</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th>Tên khoa</th>
+                    <th>Số lượng sinh viên</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="logo1.png" alt="Logo Trường 1" width="50"></td>
+                    <td>Đại học A</td>
+                    <td>Khoa Kinh tế</td>
+                    <td>500</td>
+                    <td><a href="https://cmc-u.edu.vn/en/cmc-university/" target="_blank">CMC University</a></td>
+                </tr>
+                <tr>
+                    <td><img src="logo2.jpg" alt="Logo Trường 2" width="50"></td>
+                    <td>Đại học B</td>
+                    <td>Khoa Công nghệ Thông tin</td>
+                    <td>600</td>
+                    <td><a href="https://www.daihocb.vn" target="_blank">daihocb.vn</a></td>
+                </tr>
+                <tr>
+                    <td><img src="logo3.jpg" alt="Logo Trường 3" width="50"></td>
+                    <td>Đại học C</td>
+                    <td>Khoa Xã hội học</td>
+                    <td>400</td>
+                    <td><a href="https://www.daihocc.vn" target="_blank">daihocc.vn</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Liên kết Bootstrap JS và jQuery nếu cần -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html> 
